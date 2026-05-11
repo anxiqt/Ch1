@@ -1,9 +1,13 @@
 // A Hello World Program
 #include <iostream>
+#include "various.hpp"
 
 int main()
 {
     std::cout << "Hello, World!\n" << std::endl;
+    int result = control_struct(5, 4);
+
+    std::cout << "Result: " << result << std::endl;
 
     return 0;
 }
@@ -125,7 +129,9 @@ int main()
  * 
  * 
  *  Operators
- *  We can perform arithmetic calculations with operators. Operators act on expressions to form a new expression.   
+ *  We can perform arithmetic calculations with operators. Operators act on expressions to form a new expression. For example, 
+ *  we could replace "Hello, world!" with (4 + 2) / 3, which would cause the program to print the number 2. In this case,
+ *  the + operator acts on the expression 4 and 2 (its operands).   `
  * 
  *
  *  
