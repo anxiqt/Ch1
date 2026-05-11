@@ -1,10 +1,11 @@
 #include <iostream>
-#include "various.hpp"
+#include "various.h"
 
-int control_struct(int x, int y)
+
+
+
+void control_struct(int x, int y)
 {
-    int x, y;
-    
     if(x > y)
         std::cout << "x is greater than y\n";
     
@@ -13,6 +14,9 @@ int control_struct(int x, int y)
     
     else
         std::cout << "x and y are equal!\n";
+}
 
-return 0;
+int add(int a, int b)
+{
+    return a + b;
 }

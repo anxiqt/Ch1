@@ -1,11 +1,14 @@
 // A Hello World Program
 #include <iostream>
-#include "various.hpp"
+#include "various.h"
+
+
 
 int main()
 {
-    std::cout << "Hello, World!\n" << std::endl;
-    int result = control_struct(5, 4);
+    //std::cout << "Hello, World!\n" << std::endl;
+    int result = add(5, 4);
+    control_struct(5, 4);
 
     std::cout << "Result: " << result << std::endl;
 
